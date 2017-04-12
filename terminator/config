@@ -1,0 +1,41 @@
+[global_config]
+  window_state = maximise
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+  [[peterdn]]
+    palette = "#000000:#ff6e67:#5ffa68:#fffc67:#6871ff:#ff77ff:#3adadc:#c7c7c7:#686868:#ff6e67:#5ffa68:#fffc67:#68a4ff:#ff77ff:#60fdff:#ffffff"
+    background_image = None
+    foreground_color = "#e0e0e0"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[vpane1]]]
+      type = VPaned
+      parent = window0
+    [[[hpanetop]]]
+      type = HPaned
+      parent = vpane1
+    [[[hpanebottom]]]
+      type = HPaned
+      parent = vpane1
+    [[[terminal1]]]
+      type = Terminal
+      parent = hpanetop
+      profile = peterdn
+    [[[terminal2]]]
+      type = Terminal
+      parent = hpanetop
+      profile = peterdn
+    [[[terminal3]]]
+      type = Terminal
+      parent = hpanebottom
+      profile = peterdn
+    [[[terminal4]]]
+      type = Terminal
+      parent = hpanebottom
+      profile = peterdn
+[plugins]
