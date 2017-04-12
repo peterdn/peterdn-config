@@ -5,9 +5,11 @@
   [[default]]
     background_image = None
   [[peterdn]]
-    palette = "#000000:#ff6e67:#5ffa68:#fffc67:#6871ff:#ff77ff:#3adadc:#c7c7c7:#686868:#ff6e67:#5ffa68:#fffc67:#68a4ff:#ff77ff:#60fdff:#ffffff"
-    background_image = None
     foreground_color = "#e0e0e0"
+    palette = "#000000:#ff6e67:#5ffa68:#fffc67:#6871ff:#ff77ff:#3adadc:#c7c7c7:#686868:#ff6e67:#5ffa68:#fffc67:#68a4ff:#ff77ff:#60fdff:#ffffff"
+    font = Monospace 10
+    use_system_font = False
+    background_image = None
 [layouts]
   [[default]]
     [[[window0]]]
