@@ -1,6 +1,10 @@
 [global_config]
   window_state = maximise
 [keybindings]
+  go_left = <Alt><Super>Left
+  go_down = <Alt><Super>Down
+  go_right = <Alt><Super>Right
+  go_up = <Alt><Super>Up
 [profiles]
   [[default]]
     background_image = None
